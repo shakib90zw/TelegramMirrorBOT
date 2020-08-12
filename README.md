@@ -1,23 +1,8 @@
 <h1 align="center">Torrent Mirror Bot</h1> 
-<p align="center">
-<a href="#"><img alt="donate" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"/></a>
-</p>
-<p align="center">
-<a href="https://img.shields.io/github/issues/imsawankumar/Torrent-Mirror-Bot"><img alt="issues" src="https://img.shields.io/github/issues/imsawankumar/Torrent-Mirror-Bot"/></a>
-<a href="https://img.shields.io/github/license/imsawankumar/Torrent-Mirror-Bot"><img alt="license" src="https://img.shields.io/github/license/imsawankumar/Torrent-Mirror-Bot"/></a>
-<a href="https://sawankumar.gitlab.io/"><img alt="author" src="https://img.shields.io/badge/author-Sawan%20Kumar-red"/></a>
-<a href="https://www.python.org/"><img alt="language" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"/></a>
-<a href="https://github.com/ellerbrock/open-source-badges/"><img alt="author" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"/></a>
-</p>
 
 <hr>
+This is a telegram bot writen in python for mirroring files on the internet to our beloved Google Drive.
 
-> ## This is a telegram bot writen in python for mirroring files on the internet to our beloved Google Drive.
-
-## Donate 
-
-[<img src="https://raw.githubusercontent.com/imsawankumar/Torrent-Mirror-Bot/master/files/paypal.png">](https://www.paypal.me/sawan1800)
-[<img src="https://raw.githubusercontent.com/imsawankumar/Torrent-Mirror-Bot/master/files/upi.png">](#)
 
 # Features supported:
 - Mirroring direct download links to google drive
@@ -37,7 +22,7 @@ Hit the deploy to heroku button and follow the further instructions in the scree
 
 **NB: This may lead to the suspension of your heroku account so deploy at your own risk.**
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/imsawankumar/Torrent-Mirror-Bot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?)
  
 
 ## Getting Google OAuth API credential or SECRET_JSON
@@ -61,7 +46,7 @@ python3 generate_drive_token.py
 
 ``` pkg install python wget ```
 
-``` wget https://raw.githubusercontent.com/imsawankumar/Torrent-Mirror-Bot/master/generate_drive_token.py ```
+``` wget https://raw.githubusercontent.com/mvplID/MirrorBotEasyDeploy/master/generate_drive_token.py ```
 
 ``` pip install oauth2client ```
 
@@ -94,7 +79,7 @@ python3 generate_string_session.py
 
 ``` pkg install python wget ``` (if not installed earlier)
 
-``` wget https://raw.githubusercontent.com/imsawankumar/Torrent-Mirror-Bot/master/generate_string_session.py ```
+``` wget https://raw.githubusercontent.com/mvplID/MirrorBotEasyDeploy/master/generate_string_session.py ```
 
 ``` pip install pyrogram tgcrypto ```
 
@@ -112,3 +97,4 @@ For using your premium accounts in youtube-dl, edit the netrc file (in the root 
 machine host login username password my_youtube_password
 ```
 where host is the name of extractor (eg. youtube, twitch). Multiple accounts of different hosts can be added each separated by a new line
+.
